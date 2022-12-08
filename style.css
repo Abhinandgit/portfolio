@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #fbf8cc;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navlinks li{
+    margin: 30px;
+}
+.name_container{
+     font-style: normal;
+     font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #03045e;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.home_left{
+    width: 50%; 
+}
+.home_right{
+    width: 50%;
+    text-align: center;
+}
+.web_designer{
+    font-size: 110px;
+    font-weight: bolder;
+    color: #03045e;
+    line-height: 116px;
+}
+.home_hello{
+    font-size: 28px;
+    color: #03045e;
+}
+.resume{
+    margin-top: 50px;
+}
+.resume a{
+    
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    background-color: #F5EE84;
+
+}
+.profile{
+    border-radius: 500px;
+}
+#about{
+    font-size: 20px;
+}
+.about_para{
+    width: 70%;
+}
+.brown_head{
+    color: #474306;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+.about_exp{
+    margin-top: 80px;
+    padding-left: 200px;
+    color: #03045e;
+}
+.about_exp li{
+    margin-top: 20px;
+}
+.skill_item{
+    margin-top: 80px;
+}
